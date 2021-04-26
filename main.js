@@ -10,5 +10,8 @@ while (classe.length < choixMax) {
     classe.push(eleves[compt]);
     compt++;
 }
+// while (classe.length != choixMax) {
+//     classe.push(prompt("rentrez un nom"))
+// }
 
 console.log(classe);
